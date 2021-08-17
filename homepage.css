@@ -1,9 +1,11 @@
 html{
     /*color schemes*/
-    --darkBlue: #01141B;
+    --darkBlue: #08161F;
+    --mediumBlue: #0B394A;
     --lightBlue: #AEE8F1;
     --coralOrange: #8B4E48;
     --orange: rgba(215, 99, 42, .35);
+    --lightOrange: #f1ccae;
     --grey: #818181;
 
     --bannerFont: 'Montserrat Subrayada', sans-serif;;
@@ -12,6 +14,7 @@ html{
 
 body{
     margin: 0;
+    background-color: var(--darkBlue);
 }
 
 .banner{
@@ -58,10 +61,11 @@ body{
 .recentProHead{
     /* box model */
     margin-bottom: 0;
+    margin-top: .5em;
     padding: .25em 0;
     /*font and design*/
-    color: var(--darkBlue);
-    text-shadow: 5px 5px var(--lightBlue);
+    color: white;
+    text-shadow: 2.5px 2.5px var(--lightOrange);
     /* text-shadow: 1px 1px 2px var(--lightBlue), 0 0 1em var(--lightBlue), 0 0 0.2em var(--lightBlue); */
     text-align: center;
     font-size: 3.5em;
@@ -99,7 +103,9 @@ body{
     align-items: center;
     
     width: 30em;
-    background-color: var(--darkBlue);
+    background-color: var(--mediumBlue);
+    border: 2px solid var(--mediumBlue);
+    border-radius: 2.5em;
     margin: 2em;
     padding-bottom: 1.5em; 
 }
@@ -109,6 +115,7 @@ body{
     font-family: var(--projectFont);
     color: white;
     margin-bottom: 0;
+    margin-top: .25em;
 
 }
 
@@ -162,4 +169,10 @@ body{
     background-color: var(--orange);
     border-radius:50%;
     box-shadow: 0 0 0 5px var(--orange);
+}
+
+.projectButtons:hover{
+    background-color: var(--lightOrange);
+    border: 2px solid var(--lightOrange);
+    border-radius: 5em;
 }
