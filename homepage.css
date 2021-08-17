@@ -10,6 +10,7 @@ html{
 
     --bannerFont: 'Montserrat Subrayada', sans-serif;;
     --projectFont: 'Raleway', sans-serif;
+    --projHeaderFont: 'Recursive', sans-serif;
 }
 
 body{
@@ -112,10 +113,10 @@ body{
 
 .projectHeader{
     font-size: 2.5em;
-    font-family: var(--projectFont);
+    font-family: var(--projHeaderFont);
     color: white;
     margin-bottom: 0;
-    margin-top: .25em;
+    margin-top: .5em;
 
 }
 
