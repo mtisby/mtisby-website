@@ -105,6 +105,11 @@ main{
 
 .section1{
     margin: 2em;
+    text-align: center;
+}
+
+.section1 img{
+    max-width: 25em;
 }
 
 .section2{
