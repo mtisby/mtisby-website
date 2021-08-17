@@ -2,6 +2,7 @@ html{
     /*color schemes*/
     --darkBlue: #01141B;
     --coralOrange: #8B4E48;
+    --grey: #818181;
     --bannerFont: 'Montserrat Subrayada', sans-serif;;
     --projectFont: 'Raleway', sans-serif;
 }
@@ -49,4 +50,78 @@ body{
     color: white;
     font-family: var(--projectFont);
     font-size: 1.5em;
+}
+
+.recentProHead{
+    /* box model */
+    margin-bottom: 0;
+    padding: .25em 0;
+    /*font and design*/
+    color: var(--grey);
+    text-align: center;
+    font-size: 3.5em;
+    font-family: var(--bannerFont);
+    font-weight: bold;
+}
+
+/*JavaScript classes*/
+.projects{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.projectDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    width: 30em;
+    background-color: var(--darkBlue);
+    margin: 2em;
+    padding-bottom: 1.5em; 
+}
+
+.projectHeader{
+    font-size: 2.5em;
+    font-family: var(--projectFont);
+    color: white;
+    margin-bottom: 0;
+
+}
+
+.projectImg{
+    max-width: 21em;
+    min-height: 15em;
+    margin: 1em;
+}
+
+.projectButtons{
+    /* sizing */
+    width: 18em;
+
+    /* box model */
+    margin: 1em;
+    padding: .25em 1em;
+
+    /* color and design */
+    background-color: var(--coralOrange);
+    border: 2px solid var(--coralOrange);
+    border-radius: 5em;
+
+    /* font design */
+    color: white;
+    font-size: 1em;
+    font-family: var(--projectFont);
+    font-weight: bold;
+
+}
+
+/* interaction */
+/*projects*/
+.projectDiv:hover{
+    box-shadow: 0 0 75px rgba(46, 84, 167, 0.75);
 }
