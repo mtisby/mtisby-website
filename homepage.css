@@ -1,8 +1,11 @@
 html{
     /*color schemes*/
     --darkBlue: #01141B;
+    --lightBlue: #AEE8F1;
     --coralOrange: #8B4E48;
+    --orange: rgba(215, 99, 42, .35);
     --grey: #818181;
+
     --bannerFont: 'Montserrat Subrayada', sans-serif;;
     --projectFont: 'Raleway', sans-serif;
 }
@@ -57,11 +60,27 @@ body{
     margin-bottom: 0;
     padding: .25em 0;
     /*font and design*/
-    color: var(--grey);
+    color: var(--darkBlue);
+    text-shadow: 5px 5px var(--lightBlue);
+    /* text-shadow: 1px 1px 2px var(--lightBlue), 0 0 1em var(--lightBlue), 0 0 0.2em var(--lightBlue); */
     text-align: center;
     font-size: 3.5em;
     font-family: var(--bannerFont);
     font-weight: bold;
+}
+
+.socials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin-bottom: 1em;
+}
+
+.socials img{
+    height: 2.5em;
+    width: 2.5em;
+    margin: .5em;
 }
 
 /*JavaScript classes*/
@@ -94,9 +113,10 @@ body{
 }
 
 .projectImg{
-    max-width: 21em;
-    min-height: 15em;
+    width: 21em;
+    height: 15em;
     margin: 1em;
+    object-fit: cover;
 }
 
 .projectButtons{
@@ -120,8 +140,26 @@ body{
 
 }
 
+.emailName{
+    margin-left: 2em;
+    font-size: .5em;
+    font-family: var(--bannerFont);
+}
+
+.emailFont{
+    font-family: var(--projectFont);
+}
+
 /* interaction */
 /*projects*/
 .projectDiv:hover{
-    box-shadow: 0 0 75px rgba(46, 84, 167, 0.75);
+    box-shadow: 0 0 75px var(--lightBlue);
+    
+    /* rgba(46, 84, 167, 0.75); */
+}
+
+.socials img:hover{
+    background-color: var(--orange);
+    border-radius:50%;
+    box-shadow: 0 0 0 5px var(--orange);
 }
