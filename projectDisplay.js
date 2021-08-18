@@ -16,10 +16,10 @@ const projects = {
         repoLink: "https://github.com/mtisby/JavaScript-Components"
     },
     projectThree: {
-        imgPath: "",
-        title: "", 
-        webLink: "",
-        repoLink: ""
+        imgPath: "./projectThree/signum.png",
+        title: "Signum", 
+        webLink: "https://ismatullaevash.github.io/signum/#/",
+        repoLink: "https://github.com/ismatullaevash/signum"
     },
     projectFour: {
         imgPath: "",
