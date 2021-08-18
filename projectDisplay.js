@@ -7,24 +7,28 @@ const projects = {
         imgPath: "./projectOne/cheFlavor.png",
         title: "CheFlavor",
         webLink: "",
-        repoLink: ""
+        demoLink: "",
+        repoLink: "https://github.com/mtisby/chefFlavor"
     },
     projectTwo: {
         imgPath: "./projectTwo/javaScriptCalendar.png",
         title: "JavaScript Calendar",
         webLink: "",
+        demoLink: "",
         repoLink: "https://github.com/mtisby/JavaScript-Components"
     },
     projectThree: {
         imgPath: "./projectThree/signum.png",
         title: "Signum", 
         webLink: "https://ismatullaevash.github.io/signum/#/",
+        demoLink: "",
         repoLink: "https://github.com/ismatullaevash/signum"
     },
     projectFour: {
         imgPath: "./projectFour/museumOfMini.png",
         title: "Museum Of Miniatures", 
         webLink: "",
+        demoLink: "",
         repoLink: "https://github.com/mtisby/museumofMiniatures"
     }
 }
@@ -34,7 +38,7 @@ if (debugging === true){
     console.log(projects)
 }
 
-function makeProjectContainer(imgPath, projectTitle, webLink, repoLink ) {
+function makeProjectContainer(imgPath, projectTitle, webLink, demoLink, repoLink ) {
     // create elements
     const projectDiv = document.createElement('div');
 
@@ -45,10 +49,17 @@ function makeProjectContainer(imgPath, projectTitle, webLink, repoLink ) {
     header.innerText = projectTitle;
 
     const websiteButton = document.createElement('button');
-    websiteButton.innerText = "website";
-    websiteButton.addEventListener("click", function(){
-        document.location.href = webLink;
+    if (webLink === "") {
+        websiteButton.innerText = "demo";
+        websiteButton.addEventListener("click", function(){
+            document.location.href = demoLink;
     });
+    } else {
+        websiteButton.innerText = "website";
+        websiteButton.addEventListener("click", function(){
+            document.location.href = webLink;
+        });
+    }
 
     const repoButton = document.createElement('button');
     repoButton.innerText = "repository"
@@ -82,7 +93,8 @@ for (var i = 0; i < projectsToDisplay; i++) {
     let projTitle = currentProj["title"];
     let webLink = currentProj["webLink"];
     let repoLink = currentProj["repoLink"];
+    let demoLink = currentProj["demoLink"];
 
-    makeProjectContainer(imgPath, projTitle, webLink, repoLink);
+    makeProjectContainer(imgPath, projTitle, webLink, demoLink, repoLink);
 }
 
