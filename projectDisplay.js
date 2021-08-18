@@ -22,10 +22,10 @@ const projects = {
         repoLink: "https://github.com/ismatullaevash/signum"
     },
     projectFour: {
-        imgPath: "",
-        title: "", 
+        imgPath: "./projectFour/museumOfMini.png",
+        title: "Museum Of Miniatures", 
         webLink: "",
-        repoLink: ""
+        repoLink: "https://github.com/mtisby/museumofMiniatures"
     }
 }
 const projectTitle = Object.keys(projects);
