@@ -26,10 +26,10 @@ body{
     height: 100vh;
 
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: nowrap;
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-start;
     z-index: -1;
 
 }
@@ -40,6 +40,7 @@ body{
     flex-wrap: nowrap;
     justify-content: flex-start;
     align-items: flex-start;
+    margin-top: 12em;
 }
 
 .name{
@@ -92,18 +93,43 @@ body{
 /*navigation*/
 #navigation{
     z-index: 3;
-    max-width: 10em;
+    max-width: 50em;
     position: absolute;
+
+    display: none;
+    background-color: var(--darkBlue);
+    margin: 0;
+    padding: 3em;
+    top: 0;
 }
+
+.navbar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
 #menuImg{
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
     padding: 2em;
+    position: absolute;
+    z-index: 4;
 }
 
 .navUl{
     display: none;
+    background-color: var(--darkBlue);
+    margin: 0;
+    padding: 3em;
+    list-style-type: none;
+}
+
+
+.profileImg{
+    width: 15em;
 }
 
 /*JavaScript classes*/
