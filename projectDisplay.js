@@ -10,17 +10,20 @@ const projects = {
         repoLink: ""
     },
     projectTwo: {
-        imgPath: "",
+        imgPath: "./projectTwo/javaScriptCalendar.png",
+        title: "JavaScript Calendar",
         webLink: "",
-        repoLink: ""
+        repoLink: "https://github.com/mtisby/JavaScript-Components"
     },
     projectThree: {
         imgPath: "",
+        title: "", 
         webLink: "",
         repoLink: ""
     },
     projectFour: {
         imgPath: "",
+        title: "", 
         webLink: "",
         repoLink: ""
     }
