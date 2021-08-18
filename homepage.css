@@ -30,6 +30,7 @@ body{
     flex-wrap: nowrap;
     justify-content: flex-start;
     align-items: center;
+    z-index: -1;
 
 }
 
@@ -86,6 +87,23 @@ body{
     height: 2.5em;
     width: 2.5em;
     margin: .5em;
+}
+
+/*navigation*/
+#navigation{
+    z-index: 3;
+    max-width: 10em;
+    position: absolute;
+}
+#menuImg{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 2em;
+}
+
+.navUl{
+    display: none;
 }
 
 /*JavaScript classes*/

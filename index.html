@@ -10,6 +10,7 @@
 
     <!--style sheets-->
     <link rel="stylesheet" href="./homepage.css">   
+    <link rel="stylesheet" href="./navigation.css">   
     
     <!--fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,7 +18,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Raleway&family=Recursive:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="navigation"></div>
+    <div class="navigation">
+        <img src="./buttons/threeLineIcon.png" alt="menu bar" id="menuImg">
+        <nav id="navigation">
+            <ul class="navUl" id="navUl">
+                <li><button>resume</button></li>
+                <li><button>email</button></li>
+                <li><button>Github</button></li>
+                <li><button>LinkedIn</button></li>
+            </ul>
+        </nav>
+    </div>
     <header class="banner">
         <div class="nameAndDescript">
             <h1 class="name">Mariel <br> Tisby </h1>
@@ -38,5 +49,6 @@
 
     <script src="./projectDisplay.js"></script>
     <script src="./socials.js"></script>
+    <script src="./navigation.js"></script>
 </body>
 </html>
