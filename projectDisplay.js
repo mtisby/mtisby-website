@@ -13,7 +13,7 @@ const projects = {
     projectTwo: {
         imgPath: "./projectTwo/javaScriptCalendar.png",
         title: "JavaScript Calendar",
-        webLink: "",
+        webLink: "https://mtisby.github.io/javascript-calendar/",
         demoLink: "",
         repoLink: "https://github.com/mtisby/JavaScript-Components"
     },
