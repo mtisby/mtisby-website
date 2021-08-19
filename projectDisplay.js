@@ -6,13 +6,13 @@ const projects = {
     projectOne: {
         imgPath: "./projectOne/cheFlavor.png",
         title: "CheFlavor",
-        webLink: "",
+        webLink: "https://mtisby.github.io/chefFlavor/",
         demoLink: "",
         repoLink: "https://github.com/mtisby/chefFlavor"
     },
     projectTwo: {
         imgPath: "./projectTwo/javaScriptCalendar.png",
-        title: "JavaScript Calendar",
+        title: "Calendar",
         webLink: "https://mtisby.github.io/javascript-calendar/",
         demoLink: "",
         repoLink: "https://github.com/mtisby/JavaScript-Components"
