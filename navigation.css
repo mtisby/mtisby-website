@@ -120,7 +120,7 @@ media queries
 
 @media (min-width: 501px) and (max-width: 800px){
     .navigation{
-        height: 2.25em;
+        height: 5.5em;
     }
 
     .navbar{
