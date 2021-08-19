@@ -77,3 +77,22 @@ html{
     transform: translateY(-0.25em);
     cursor: pointer;
 }
+
+/*
+media queries
+*/
+@media (max-width: 500px){
+    .navigation{
+        z-index: 4;
+        height: 6em;
+    }
+    
+    .navbar{
+        width: 100vw;
+        height: 80vh;
+    }
+
+    .profileImg{
+        margin-top: 2em;
+    }
+}

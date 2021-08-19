@@ -37,11 +37,6 @@ body{
 
 }
 
-.nameAndDescription{
-    margin-top: 1000em;
-    z-index: 4; 
-}
-
 .name{
     margin-left: 2em;
     text-align: left;
@@ -196,6 +191,85 @@ footer{
     background-color: var(--mediumBlueTwo);
     padding: 1em;
     padding-top: .5em;
+}
+
+/*
+media queries
+*/
+@media (max-width: 500px){
+    html{
+        margin: 0
+    }
+    body{
+        margin: 0;
+    }
+    .banner{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+
+        height: 40vh;
+    }
+
+    .nameAndDescript{
+        text-align: center;
+    }    
+
+    .name{
+        margin-left: 1em;
+        font-size: 3em;
+    }
+
+    .description{
+        margin-left: 10em;
+        font-size: .75em;
+    }
+
+    .recentProHead{
+        font-size: 2em;
+    }
+    
+    /*projects*/
+    .projectDiv{
+        min-width: 20em;
+        max-width: 22em;
+    }
+    .projectHeader{
+        font-size: 2em;
+    }
+    
+    .projectImg{
+        width: 15em;
+        height: 10em;
+        margin: 1em;
+        object-fit: cover;
+    }
+    
+    .projectButtons{
+        /* sizing */
+        width: 10em;
+    
+        /* box model */
+        margin: 1em;
+        padding: .25em 1em;
+    
+        /* font design */
+        font-size: 1.25em;
+    
+    }
+
+    .websiteRepo{
+        text-align: center;
+        font-size: 1em;        
+    }
+    
+    .websiteRepo button{
+        width: 12em;
+        font-size: .75em;
+    }
+    
+    
 }
 
 /* interaction */
