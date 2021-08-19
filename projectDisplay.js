@@ -27,7 +27,7 @@ const projects = {
     projectFour: {
         imgPath: "./projectFour/museumOfMini.png",
         title: "Museum Of Miniatures", 
-        webLink: "",
+        webLink: "https://mtisby.github.io/museumofminiatures/",
         demoLink: "",
         repoLink: "https://github.com/mtisby/museumofMiniatures"
     }
