@@ -84,15 +84,46 @@ media queries
 @media (max-width: 500px){
     .navigation{
         z-index: 4;
-        height: 6em;
+        height: 5em;
     }
     
     .navbar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
         width: 100vw;
-        height: 80vh;
+        height: 100vh;
+        padding: .5em;
     }
 
     .profileImg{
         margin-top: 2em;
+        width: 10em;
+    }
+
+    .close{
+        width: 5em;
+    }
+    
+    .menuImg{
+        width: 5em;
+        z-index: 4;
+    }
+
+    .navbar button{
+        width: 6em;
+        font-size: 1em;
+    }
+}
+
+@media (min-width: 501px) and (max-width: 800px){
+    .navigation{
+        height: 2.25em;
+    }
+
+    .navbar{
+        width: 50vw;
     }
 }

@@ -204,26 +204,26 @@ media queries
         margin: 0;
     }
     .banner{
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: flex-start;
-
+        display: block;
         height: 40vh;
     }
 
     .nameAndDescript{
-        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }    
 
     .name{
-        margin-left: 1em;
-        font-size: 3em;
+        margin: 0;
+        font-size: 2em;
+        text-align: center;
     }
 
     .description{
-        margin-left: 10em;
+        margin: 0;
         font-size: .75em;
+        text-align: center;
     }
 
     .recentProHead{
@@ -232,11 +232,11 @@ media queries
     
     /*projects*/
     .projectDiv{
-        min-width: 20em;
-        max-width: 22em;
+        min-width: 18em;
+        max-width: 20em;
     }
     .projectHeader{
-        font-size: 2em;
+        font-size: 1.5em;
     }
     
     .projectImg{
@@ -270,6 +270,38 @@ media queries
     }
     
     
+}
+
+@media (min-width: 501px) and (max-width: 800px){
+    .banner{
+        display: block;
+        height: 40vh;
+    }
+    
+    .nameAndDescript{
+        margin-top: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }    
+
+    .name{
+        margin: 0;
+        font-size: 4.25em;
+        text-align: center;
+        color: black;
+        text-shadow: 2.5px 2.5px 4px var(--lightBlue), 0 0 1em var(--lightBlue);
+    }
+
+    .description{
+        margin: 0;
+        font-size: 1em;
+        text-align: center;
+        color: black;
+        font-weight: bold;
+        text-shadow: 1px 1px 2px var(--lightBlue), 0 0 1em var(--lightBlue);
+    }
 }
 
 /* interaction */
