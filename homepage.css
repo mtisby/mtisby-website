@@ -87,7 +87,7 @@ body{
     width: 2.5em;
     margin: .5em;
 
-    transition: all .5s;
+    transition: all 1.5s;
 }
 
 
@@ -119,6 +119,8 @@ body{
     /* border-radius: 2em; */
     margin: 2em;
     padding-bottom: 1.5em; 
+
+    transition: all 1.5s;
 }
 
 .projectHeader{
@@ -156,6 +158,9 @@ body{
     font-size: 1.25em;
     font-family: var(--projectFont);
     font-weight: bold;
+
+    /*transition*/
+    transition: all 1.5s;
 
 }
 
@@ -197,6 +202,8 @@ footer{
 /*projects*/
 .projectDiv:hover{
     box-shadow: 0 0 75px var(--lightBlue);
+    transform: translateY(-0.25em);
+    cursor: pointer;
     
     /* rgba(46, 84, 167, 0.75); */
 }
@@ -207,7 +214,10 @@ footer{
     box-shadow: 0 0 0 5px var(--lightOrange);
 }
 
-.projectButtons:hover{
+.projectDiv .projectButtons:hover{
     color: var(--lightOrange2);
 }
 
+footer .projectButtons:hover{
+    color: var(--lightOrange2);
+}

@@ -1,3 +1,21 @@
+html{
+    /*color schemes*/
+    --darkBlue: #08161F;
+    --mediumBlue: #0d2331;
+    /* --mediumBlue: #0B394A; */
+    --mediumBlueTwo: #011E26;
+    --lightBlue: #AEE8F1;
+    --coralOrange: #8B4E48;
+    --orange: rgba(215, 99, 42, .35);
+    --lightOrange: #f1ccae;
+    --lightOrange2: #e6bc63;
+    --grey: #818181;
+
+    --bannerFont: 'Montserrat Subrayada', sans-serif;;
+    --projectFont: 'Raleway', sans-serif;
+    --projHeaderFont: 'Recursive', sans-serif;
+}
+
 /*navigation*/
 .navbar{
     display: flex;
@@ -14,12 +32,12 @@
     min-width: 25em;
     transform: translateY(-105%); /* move it horizontally off the page */
     /* transition: transform 1s cubic-bezier(0.895, 0.03, 0.685, 0.22); */
-    transition: transform 1s;
+    transition: transform 2s;
 }
     
 .opened{
     transform: translateY(0);
-
+    transition: transform 2s;
 }
 
 .close{
@@ -52,4 +70,10 @@
 .navigation{
     z-index: 4;
     height: 12em;
+}
+
+.navbar button:hover{
+    box-shadow: 0 0 75px var(--lightBlue);
+    transform: translateY(-0.25em);
+    cursor: pointer;
 }
