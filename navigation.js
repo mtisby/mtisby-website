@@ -1,10 +1,10 @@
 const menuIcon = document.querySelector('#menuImg');
 menuIcon.addEventListener('click', function myFunction() {
     const navbar = document.querySelector('#navigation');
-        if (navbar.style.display === "block") {
-          navbar.style.display = "none";
+        if (navbar.style.visibility === "hidden") {
+          navbar.style.visibility = "visible";
         } else {
-            navbar.style.display = "block";
+            navbar.style.visibility = "hidden";
         }
 });
 

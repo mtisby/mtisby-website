@@ -12,3 +12,9 @@ const emailButton = document.querySelector('#email');
 emailButton.addEventListener("click", function(){
     document.location.href = "./email.html";
 });
+
+
+const webRepoButton = document.querySelector('#websiteRepo');
+webRepoButton.addEventListener("click", function(){
+    document.location.href = "https://github.com/mtisby/mtisby.github.io";
+});
