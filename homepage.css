@@ -7,6 +7,7 @@ html{
     --coralOrange: #8B4E48;
     --orange: rgba(215, 99, 42, .35);
     --lightOrange: #f1ccae;
+    --lightGreen: #65ad6f;
     --grey: #818181;
 
     --bannerFont: 'Montserrat Subrayada', sans-serif;;
@@ -256,6 +257,6 @@ footer{
 }
 
 .projectButtons:hover{
-    color: var(--lightOrange);
+    color: var(--lightBlue);
 }
 
