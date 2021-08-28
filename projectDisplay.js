@@ -23,14 +23,15 @@ const projects = {
         webLink: "https://ismatullaevash.github.io/signum/#/",
         demoLink: "",
         repoLink: "https://github.com/ismatullaevash/signum"
-    },
-    projectFour: {
-        imgPath: "./projectFour/museumOfMini.png",
-        title: "Museum Of Miniatures", 
-        webLink: "https://mtisby.github.io/museumofminiatures/",
-        demoLink: "",
-        repoLink: "https://github.com/mtisby/museumofMiniatures"
     }
+    //,
+    // projectFour: {
+    //     imgPath: "./projectFour/museumOfMini.png",
+    //     title: "Museum Of Miniatures", 
+    //     webLink: "https://mtisby.github.io/museumofminiatures/",
+    //     demoLink: "",
+    //     repoLink: "https://github.com/mtisby/museumofMiniatures"
+    // }
 }
 const projectTitle = Object.keys(projects);
 
