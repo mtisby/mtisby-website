@@ -53,14 +53,14 @@ body{
 .name{
     text-align: center;
     color: white;
-    font-family: var(--bannerFont);
+    font-family: 'Libre Baskerville', serif;
     font-size: 5em;
 }
 
 .description{
     text-align: center;
     color: white;
-    font-family: var(--projectFont);
+    font-family: 'Libre Baskerville', serif;;
     font-size: 1.5em;
 }
 
