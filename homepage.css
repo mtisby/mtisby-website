@@ -4,7 +4,7 @@ html{
     --mediumBlue: #0d2331;
     --mediumBlueTwo: #011E26;
     --lightBlue: #AEE8F1; */
-    --darkGray: #1C1314;
+    --darkGray: #180E0F;
     --mediumBlue: #242323;
     --mediumBlueTwo: #242323;
     --lightBlue: #AEE8F1;
@@ -29,7 +29,6 @@ body{
     background-repeat: no-repeat;
     background-position: 50% 18%;
     background-size: cover;
-    box-shadow: inset 3px 3px 10px 0 #000000;
     height: 100vh;
 
     display: flex;
