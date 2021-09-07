@@ -31,26 +31,34 @@ body{
     background-size: cover;
     height: 100vh;
 
-    display: flex;
+    display: block;
+    
+    /* display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: flex-start;
+    justify-content: flex-start; */
 
     z-index: 4;
 
 }
 
+.nameAndDescript{
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}  
+
 .name{
-    margin-left: 2em;
-    text-align: left;
+    text-align: center;
     color: white;
     font-family: var(--bannerFont);
     font-size: 5em;
 }
 
 .description{
-    margin-left: 10em;
-    text-align: left;
+    text-align: center;
     color: white;
     font-family: var(--projectFont);
     font-size: 1.5em;
@@ -278,7 +286,7 @@ media queries
 @media (min-width: 501px) and (max-width: 800px){
     .banner{
         display: block;
-        height: 40vh;
+        height: 75vh;
     }
     
     .nameAndDescript{
@@ -293,17 +301,12 @@ media queries
         margin: 0;
         font-size: 4.25em;
         text-align: center;
-        color: black;
-        text-shadow: 2.5px 2.5px 4px var(--lightBlue), 0 0 1em var(--lightBlue);
     }
 
     .description{
         margin: 0;
         font-size: 1em;
         text-align: center;
-        color: black;
-        font-weight: bold;
-        text-shadow: 1px 1px 2px var(--lightBlue), 0 0 1em var(--lightBlue);
     }
 }
 
