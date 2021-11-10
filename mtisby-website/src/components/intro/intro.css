@@ -1,0 +1,38 @@
+html{
+    --bannerFont: 'Montserrat Subrayada', sans-serif;
+    --projectFont: 'Raleway', sans-serif;
+}
+
+.intro{
+    height: 100vh;
+    background-image: url('https://res.cloudinary.com/dr0ofxgkz/image/upload/v1636572856/portfolio/bgimg_d5aagg.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 18%;
+    background-size: cover;
+}
+
+.nameAndDescript{
+    height: 60%;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 5em;
+}  
+
+.name{
+    text-align: center;
+    color: white;
+    font-family: var(--bannerFont);
+    font-size: 5em;
+}
+
+.description{
+    text-align: center;
+    color: white;
+    font-family: var(--projectFont);
+    font-size: 1.5em;
+
+    margin-left: 2em;
+}

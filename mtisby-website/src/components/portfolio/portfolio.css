@@ -1,3 +1,106 @@
+html{
+    --darkGray: #180E0F;
+    --mediumBlue: #242323;
+    --mediumBlueTwo: #242323;
+    --lightBlue: #AEE8F1;
+    --coralOrange: #8B4E48;
+    --orange: rgba(215, 99, 42, .35);
+    --lightOrange: #f1ccae;
+    --lightOrange2: #e6bc63;
+    --grey: #818181;
+}
+
 .portfolio{
-    background-color: blueviolet;
+    background-color: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.portfolioHeader{
+    color: white;
+    font-family: var(--projectFont);
+}
+
+.projects{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    margin-bottom: 1em;
+}
+
+.projectDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    width: 30em;
+    background-color: var(--mediumBlue);
+    border: 2px solid var(--mediumBlue);
+    /* border-radius: 2em; */
+    margin: 2em;
+    padding-bottom: 1.5em; 
+
+    transition: all 1.5s;
+}
+
+.projectHeader{
+    font-size: 2.5em;
+    font-family: var(--projectFont);
+    font-weight: bold;
+    color: white;
+    margin-bottom: 0;
+    margin-top: .5em;
+
+}
+
+.projectButtons{
+    /* sizing */
+    width: 16em;
+
+    /* box model */
+    margin: 1em;
+    padding: .25em 1em;
+
+    /* color and design */
+    background-color: var(--coralOrange);
+    border: 2px solid var(--coralOrange);
+    border-radius: 5em;
+
+    /* font design */
+    color: white;
+    font-size: 1.25em;
+    font-family: var(--projectFont);
+    font-weight: bold;
+
+    /*transition*/
+    transition: all 1.5s;
+
+}
+
+/* interaction */
+/*projects*/
+.projectDiv:hover{
+    box-shadow: 0 0 75px var(--lightBlue);
+    transform: translateY(-0.25em);
+    cursor: pointer;
+    
+    /* rgba(46, 84, 167, 0.75); */
+}
+
+.socials img:hover{
+    background-color: var(--lightOrange);
+    border-radius:50%;
+    box-shadow: 0 0 0 5px var(--lightOrange);
+}
+
+.projectDiv .projectButtons:hover{
+    color: var(--lightOrange2);
+}
+
+footer .projectButtons:hover{
+    color: var(--lightOrange2);
 }
