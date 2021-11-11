@@ -1,12 +1,23 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
+import { render } from "react-dom";
+import {
+  BrowserRouter,
+  Routes,
+  Route
+} from "react-router-dom";
+import App from "./Home";
+import AboutMe from "./AboutMe";
+import ContactMe from "./ContactMe";
 
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+const rootElement = document.getElementById("root");
+render(
+  <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<App />} />
+      <Route path="/aboutme" element={<AboutMe />} />
+      <Route path="/contactme" element={<ContactMe />} />
+    </Routes>
+  </BrowserRouter>,
+  rootElement
 );
 
