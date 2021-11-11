@@ -1,0 +1,18 @@
+@import url('../generalStyleSheet.css');
+
+.source{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+    text-decoration: none;
+
+    font-family: var(--projHeaderFont);
+}
+
+.source a{
+    color: rgb(74, 96, 156);
+    text-decoration: none;
+}

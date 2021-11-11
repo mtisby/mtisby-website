@@ -1,0 +1,18 @@
+html{
+    --bannerFont: 'Montserrat Subrayada', sans-serif;
+    --projectFont: 'Raleway', sans-serif;
+    --projHeaderFont: 'Recursive', sans-serif;
+    
+    --darkGray: #180E0F;
+    --mediumBlue: #242323;
+    --mediumBlueTwo: #05242f;
+    --lightBlue: #AEE8F1;
+    --coralOrange: #8B4E48;
+    --orange: rgba(215, 99, 42, .35);
+    --lightOrange: #f1ccae;
+    --lightOrange2: #e6bc63;
+    --grey: #818181;
+    --darkTeal: #053546;
+
+    background-color: #020D13;
+}
