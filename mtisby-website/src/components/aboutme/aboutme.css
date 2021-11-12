@@ -8,3 +8,90 @@ html{
     justify-content: center;
     align-items: center;
 }
+
+.aboutme{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 6em;
+
+    background-image: url("https://res.cloudinary.com/dr0ofxgkz/image/upload/v1636755601/portfolio/harry-cunningham-v-PqfyJ6bZQ-unsplash_lhypyw.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+
+
+    font-family: var(--projHeaderFont);
+}
+
+.aboutme h1{
+    font-family: var(--bannerFont);
+    font-size: 3em;
+
+    margin: .5em;
+}
+
+.aboutmeBanner{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    padding: 2.5em;
+    border: 2px solid var(--mediumBlueTwo);
+    border-radius: 2.5em;
+    background-color: var(--mediumBlueTwo);
+
+    /*6F3A41*/
+
+    width: 50vw;
+}
+
+.aboutmeBanner .divLeft{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.aboutmeBanner .profile{
+    width: 20em;
+}
+
+.aboutmeBanner .logo{
+    width: 3em;
+    margin: 1.5em 0em; 
+}
+
+.divRight{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    margin: 2em;
+    margin-left: 4em;
+}
+
+
+.profileLinks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profileLinks a{
+    margin: 1em;
+    color: white;
+    text-decoration: none;
+}
+
+.aboutme .description{
+    margin: 1em;
+    margin-top: 2.5em;
+    width: 80vw;
+    padding: 1em;
+
+    background-color:#020d137a;
+    font-family: var(--projHeaderFont);
+}

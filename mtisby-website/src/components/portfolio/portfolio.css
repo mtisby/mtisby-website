@@ -9,6 +9,30 @@
     width: 100vw;
 }
 
+.myStack{
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+
+
+    background-color: var(--mediumBlueTwo);
+    border: 2px solid var(--mediumBlueTwo);
+    border-radius: 2em;
+
+    margin-top: 1em;
+}
+
+.myStack img{
+    width: 3em;
+    margin: 1em;
+
+    transition: .5s;
+}
+
+.myStack .express{
+    width: 6em;
+}
+
 .portfolioHeaderh1{
     color: white;
     font-family: var(--projectFont);
@@ -128,5 +152,12 @@
 .projectDiv .projectButtons:hover{
     background-color: var(--lightOrange2);
     border: 2px solid var(--lightOrange2);
+    cursor: pointer;
+}
+
+
+.myStack img:hover{
+    filter: drop-shadow(0 0 1em var(--lightBlue));
+    background-color: #aee8f100;
     cursor: pointer;
 }

@@ -1,0 +1,101 @@
+.resume{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: absolute;
+    top: 5em;
+
+    background-image: url("https://res.cloudinary.com/dr0ofxgkz/image/upload/v1636755601/portfolio/harry-cunningham-v-PqfyJ6bZQ-unsplash_lhypyw.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: local;
+}
+
+.resume iframe{
+    width: 60vw;
+    height: 90vh;
+}
+
+.resume img{
+    width: 20em;
+}
+
+.resume .divLeft-Color{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1em;
+    padding: 1.5em;
+    background-color: #6F3A41;
+    border: 1px solid #6F3A41;
+    border-radius: 1.5em;
+    font-family: var(--projHeaderFont);
+}
+
+.resume .myStack-Resume{
+    margin-top: 1em;
+}
+
+.resume .divLeft{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.resume .divRight{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.resume button{
+    margin-top: 2em;
+
+    padding: .25em 1em;
+
+    /* color and design */
+    background-color: #c96d65;
+    border: 2px solid #c96d65;
+    border-radius: 5em;
+
+    font-weight: bold;
+    font-size: 1em;
+
+}
+
+.resume a{
+    color: white;
+
+    text-decoration: none;
+}
+
+
+
+.email{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    margin-top: 3em;
+}
+
+.email a{
+    color: white;
+    text-decoration: none;
+}
+
+.email img{
+    width: 2em;
+}
+
+.email-link{
+    margin: .5em;
+}
+
+.email a:hover{
+    filter: drop-shadow(0 0 1em var(--lightBlue));
+    background-color: #aee8f100;
+    cursor: pointer;
+}

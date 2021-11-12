@@ -9,7 +9,6 @@ function ResumePg() {
           <Navbar />
           <div className="sections">
               <Resume />
-              <h1>hello?</h1>
           </div>
         </div>
   
