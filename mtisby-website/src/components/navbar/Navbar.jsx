@@ -8,13 +8,16 @@ const Navbar = () => {
 
             <div className="navbar-center">
                 <div>
+                    <Link to="/" className="link">home</Link>
+                </div>
+                <div>
                     <Link to="/aboutme" className="link">about me</Link>
                 </div>
                 <div>
                     <Link to="/contactme" className="link">contact me</Link>
                 </div>
                 <div>
-                    <Link to="resume" className="link">resume</Link>
+                    <Link to="/resume" className="link">resume</Link>
                 </div>
             </div>
 

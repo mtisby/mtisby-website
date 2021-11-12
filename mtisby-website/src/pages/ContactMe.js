@@ -1,6 +1,6 @@
-import Navbar from "./components/navbar/Navbar";
-import Contact from "./components/contact/Contact";
-import "./app.css"
+import Navbar from "../components/navbar/Navbar";
+import Contact from "../components/contact/Contact";
+import "../app.css"
 
 function ContactMe() {
     return (

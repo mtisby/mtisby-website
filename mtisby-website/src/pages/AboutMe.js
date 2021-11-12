@@ -1,6 +1,6 @@
-import Navbar from "./components/navbar/Navbar";
-import Resume from "./components/resume/Resume";
-import "./app.css"
+import Navbar from "../components/navbar/Navbar";
+import Aboutme from "../components/aboutme/Aboutme";
+import "../app.css"
 
 function AboutMe() {
     return (
@@ -8,7 +8,7 @@ function AboutMe() {
         <div className="App">
           <Navbar />
           <div className="sections">
-            <Resume />
+            <Aboutme />
           </div>
         </div>
   

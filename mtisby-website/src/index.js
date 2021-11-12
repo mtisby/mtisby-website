@@ -4,10 +4,10 @@ import {
   Routes,
   Route
 } from "react-router-dom";
-import App from "./Home";
-import AboutMe from "./AboutMe";
-import ContactMe from "./ContactMe";
-import Resume from "./Resume";
+import App from "./pages/Home";
+import AboutMe from "./pages/AboutMe";
+import ContactMe from "./pages/ContactMe";
+import ResumePg from "./pages/Resume";
 
 
 const rootElement = document.getElementById("root");
@@ -17,7 +17,7 @@ render(
       <Route path="/" element={<App />} />
       <Route path="/aboutme" element={<AboutMe />} />
       <Route path="/contactme" element={<ContactMe />} />
-      <Route path="/resume" element={<Resume />} />
+      <Route path="/resume" element={<ResumePg />} />
     </Routes>
   </BrowserRouter>,
   rootElement
