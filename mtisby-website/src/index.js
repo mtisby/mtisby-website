@@ -7,13 +7,14 @@ import ResumePg from "./pages/Resume";
 
 const rootElement = document.getElementById("root");
 render(
-    <HashRouter >
-        <Routes>
-          <Route path="/" element={<App />} />
-          <Route path="/aboutme" element={<AboutMe />} />
-          <Route path="/resume" element={<ResumePg />} />
-        </Routes>
-    </HashRouter>,
+  <App />,
+    // <HashRouter >
+    //     <Routes>
+    //       <Route path="/" element={<App />} />
+    //       <Route path="/aboutme" element={<AboutMe />} />
+    //       <Route path="/resume" element={<ResumePg />} />
+    //     </Routes>
+    // </HashRouter>,
   rootElement
     
 );
