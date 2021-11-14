@@ -1,4 +1,6 @@
-My portfolio containing all of my completed and deployed projects in a visually aesthetic way. 
+<h1>mtisby portfolio</h1>
+
+<p>My portfolio containing all of my completed and deployed projects in a visually aesthetic way. 
 
 This web app was created using the JavaScript framework React. 
     
