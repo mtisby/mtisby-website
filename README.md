@@ -1,6 +1,6 @@
 <h1>mtisby portfolio</h1>
 
-[<img width="100%" src="https://res.cloudinary.com/dr0ofxgkz/image/upload/v1636919008/portfolio/portfolio_khi8ks.gif" alt="portfolio-preview"/>]
+[<img width="100%" src="./portfolio.gif" alt="portfolio-preview"/>]
 
 <p>My portfolio containing all of my completed and deployed projects in a visually aesthetic way. 
 
