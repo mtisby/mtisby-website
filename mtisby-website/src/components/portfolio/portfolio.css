@@ -1,7 +1,7 @@
 @import url('../generalStyleSheet.css');
 
 .portfolio{
-    background-color: none;
+    background-color: #020D13;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,6 +11,7 @@
 
 .myStack{
     display: flex;
+    flex-wrap: wrap;
     justify-content: baseline;
     align-items: center;
 
@@ -113,6 +114,12 @@
 
 }
 
+.buttonDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .projectButtons{
     /* sizing */
     width: 8em;
@@ -161,3 +168,30 @@
     background-color: #aee8f100;
     cursor: pointer;
 }
+
+@media (max-width: 900px) { 
+    .myStack{
+        width: 65vw;
+        justify-content: center;
+    }
+
+    .portfolioHeaderh1{
+        font-size: 3em;
+    }
+
+    .projectHeader{
+        font-size: 2em;
+        text-align: center;
+    }
+
+
+    .projectDiv img{
+        margin: 1em;
+    }
+    
+    .miniProjectDiv img{
+        margin: 1em;
+    }
+    
+ }
+

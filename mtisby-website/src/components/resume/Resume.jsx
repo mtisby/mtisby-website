@@ -23,7 +23,7 @@ const Resume = () => {
 
             </div>
             <div className="divRight">
-                <iframe src="https://docs.google.com/document/d/e/2PACX-1vQW-O-ALbuOB4Cta8seRk9tZSK2-Vz3hOFiAPc9R2Agq2eDQj6RCdsZUTirguP84oIfVT-HaN-Tdhle/pub?embedded=true"></iframe>
+                <iframe src="https://docs.google.com/document/d/e/2PACX-1vQW-O-ALbuOB4Cta8seRk9tZSK2-Vz3hOFiAPc9R2Agq2eDQj6RCdsZUTirguP84oIfVT-HaN-Tdhle/pub?embedded=true" title="resume"></iframe>
             </div>
 
         </div>

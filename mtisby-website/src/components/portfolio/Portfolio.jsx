@@ -47,7 +47,7 @@ const Portfolio = () => {
                 <div className="projectDiv">
                     <h1 className="projectHeader">Cheflavor</h1>
                     <img onMouseEnter={handleHoverEnter} onMouseLeave={ handleHoverLeave } src="https://res.cloudinary.com/dr0ofxgkz/image/upload/v1636656191/portfolio/cheflavor_dzfi1a.png" alt="cheflavor website gif" id="cheflavor"/>
-                    <div>
+                    <div className="buttonDiv">
                         <button className="projectButtons"><a href="https://protected-scrubland-89262.herokuapp.com/cheflavor">website</a></button>
                         <button className="projectButtons"><a href="https://github.com/mtisby/cheflavor">repository</a></button>
                     </div>
@@ -55,7 +55,7 @@ const Portfolio = () => {
                 <div className="projectDiv">
                     <h1 className="projectHeader">Cheflavor Staff Portal</h1>
                     <img onMouseEnter={handleHoverEnter} onMouseLeave={ handleHoverLeave } src="https://res.cloudinary.com/dr0ofxgkz/image/upload/v1636855473/portfolio/staff-portal_owyzce.png" alt="cheflavor-website-gif" id="cheflavor-staffportal"/>
-                    <div>
+                    <div className="buttonDiv">
                         <button className="projectButtons"><a href="https://protected-scrubland-89262.herokuapp.com/cheflavor/stafflogin/login">website</a></button>
                         <button className="projectButtons"><a href="https://github.com/mtisby/cheflavor">repository</a></button>
                     </div>
@@ -63,7 +63,7 @@ const Portfolio = () => {
                 <div className="projectDiv">
                     <h1 className="projectHeader">Star Campsites</h1>
                 <img onMouseEnter={handleHoverEnter} onMouseLeave={ handleHoverLeave } src="https://res.cloudinary.com/dr0ofxgkz/image/upload/v1636656190/portfolio/star-campsites_veouus.png" alt="star campsites website gif" id="star-campsites"/>
-                    <div>
+                    <div className="buttonDiv">
                         <button className="projectButtons"><a href="https://secure-gorge-90469.herokuapp.com/">website</a></button>
                         <button className="projectButtons"><a href="https://github.com/mtisby/star-campsites">repository</a></button>
                     </div>
@@ -76,7 +76,7 @@ const Portfolio = () => {
                 <div className="projectDiv">
                     <h1 className="projectHeader">Events Calendar</h1>
                     <img onMouseEnter={handleHoverEnter} onMouseLeave={ handleHoverLeave } src="https://res.cloudinary.com/dr0ofxgkz/image/upload/v1636658235/portfolio/js-calendar_brr61d.png" alt="cheflavor website gif" id="js-calendar"/>
-                    <div>
+                    <div className="buttonDiv">
                         <button className="projectButtons"><a href="https://mtisby.github.io/javascript-calendar/">website</a></button>
                         <button className="projectButtons"><a href="https://github.com/mtisby/javascript-calendar">repository</a></button>
                     </div>
@@ -84,7 +84,7 @@ const Portfolio = () => {
                 <div className="projectDiv">
                     <h1 className="projectHeader">Signum</h1>
                 <img onMouseEnter={handleHoverEnter} onMouseLeave={ handleHoverLeave } src="https://res.cloudinary.com/dr0ofxgkz/image/upload/v1636659030/portfolio/signum_yh3yez.png" alt="star campsites website gif" id="signum"/>
-                    <div>
+                    <div className="buttonDiv">
                         <button className="projectButtons"><a href="https://ismatullaevash.github.io/signum/#/">website</a></button>
                         <button className="projectButtons"><a href="https://github.com/ismatullaevash/signum">repository</a></button>
                     </div>

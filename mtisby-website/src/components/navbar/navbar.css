@@ -5,7 +5,7 @@ html{
 }
 
 .navbar{
-    width: 100%;
+    width: 100vw;
     height: 5em;
 
     color: white;
@@ -59,3 +59,34 @@ html{
     color: white;
     text-decoration: none;
 }
+
+@media (max-width: 900px) { 
+    
+    .navbar .navbar-left{
+        width: 4em;
+    }
+    
+    .navbar .navbar-right{    
+        width: 4em;
+    }
+    
+ }
+
+
+ @media (max-width: 600px) { 
+    .navbar{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .navbar .navbar-right{    
+        display: none;
+    }
+
+    .navbar .navbar-left{    
+        display: none;
+    }
+
+ }

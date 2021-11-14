@@ -16,3 +16,13 @@
     color: rgb(74, 96, 156);
     text-decoration: none;
 }
+
+@media (max-width: 900px) { 
+    .source h2{
+        font-size: 1em;
+    }
+    .source h3{
+        font-size: .75em;
+    }
+ }
+

@@ -9,6 +9,7 @@ html{
     background-repeat: no-repeat;
     background-position: 50% 18%;
     background-size: cover;
+    background-color: #020D13;
 }
 
 .nameAndDescript{
@@ -36,3 +37,28 @@ html{
 
     margin-left: 2em;
 }
+
+@media (max-width: 900px) {
+    .intro{
+        height: 75vh;
+        color: #020D13;
+    }
+    
+    .nameAndDescript{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }  
+    
+    .name{
+        font-size: 4em;
+    }
+    
+    .description{
+        font-size: 1em;
+        margin-left: 0;
+    }
+ }

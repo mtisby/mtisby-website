@@ -11,16 +11,19 @@ html{
 
 .aboutme{
     width: 100vw;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     position: absolute;
-    top: 6em;
+    top: 5em;
 
-    background-image: url("https://res.cloudinary.com/dr0ofxgkz/image/upload/v1636755601/portfolio/harry-cunningham-v-PqfyJ6bZQ-unsplash_lhypyw.jpg");
+    /* background-color: #020D13; */
+    background-image: url("./bappie-L_rNhnpWkD0-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
+    background-attachment: local;
 
 
     font-family: var(--projHeaderFont);
@@ -29,7 +32,7 @@ html{
 .aboutme h1{
     font-family: var(--bannerFont);
     font-size: 3em;
-
+    color: white;
     margin: .5em;
 }
 
@@ -55,7 +58,7 @@ html{
 }
 
 .aboutmeBanner .profile{
-    width: 20em;
+    width: 10vw;
 }
 
 .aboutmeBanner .logo{
@@ -95,3 +98,104 @@ html{
     background-color:#020d137a;
     font-family: var(--projHeaderFont);
 }
+
+@media (max-width: 1300px) { 
+    .aboutmeBanner{
+        width: 50vw;
+        padding: 1em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .aboutmeBanner .profile{
+        width: 20vw;
+    }
+
+    .divRight{
+        margin: 1em;
+        margin-left: 2em;
+    }
+
+    .aboutme .description{
+        margin: 1em;
+        margin-top: 2.5em;
+        width: 80vw;
+        padding: 1em;
+    
+        background-color:#020d137a;
+        font-family: var(--projHeaderFont);
+        font-size: 1.25em;
+    }
+ }
+
+ @media (max-width: 1050px) { 
+    .aboutmeBanner{
+        width: 35vw;
+        padding: 1em;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .aboutmeBanner .profile{
+        width: 20vw;
+        margin-top: 1em;
+    }
+
+    .aboutmeBanner .logo{
+        width: 2em;
+        margin: .5em 0em; 
+    }
+    
+    .divRight{
+        margin: 2em;
+    }
+
+ }
+
+ @media (max-width: 700px) { 
+    .aboutmeBanner{
+        width: 32vw;
+        padding: 1em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .aboutmeBanner .profile{
+        width: 20vw;
+    }
+
+    .divRight{
+        font-size: .75em;
+    }
+
+ }
+
+ @media (max-width: 600px) { 
+    .aboutmeBanner .profile{
+        width: 20vw;
+    }
+
+    .divRight{
+        font-size: .75em;
+    }
+
+ }
+
+ @media (max-width: 600px) { 
+    .aboutmeBanner{
+        width: 50vw;
+    }
+
+    .aboutmeBanner .profile{
+        display: none;
+    }
+
+    .divRight{
+        font-size: .75em;
+    }
+
+ }

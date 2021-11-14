@@ -84,6 +84,11 @@
 .email a{
     color: white;
     text-decoration: none;
+    padding: none;
+}
+
+.email-link p {
+    margin: 0;
 }
 
 .email img{
@@ -99,3 +104,38 @@
     background-color: #aee8f100;
     cursor: pointer;
 }
+
+@media (max-width: 900px) { 
+    .resume{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .resume .divLeft-Color{
+        width: 50vw;
+    }
+ }
+
+
+ @media (max-width: 700px) { 
+    .resume{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .resume .divLeft-Color{
+        width: 50vw;
+    }
+    
+    .resume img{
+        width: 40vw;
+    }
+
+    .email img{
+        width: 5vw;
+    }
+ }
