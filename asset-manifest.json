@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/mtisby-website/static/css/main.99cd3d4b.chunk.css",
-    "main.js": "/mtisby-website/static/js/main.d3a02ea6.chunk.js",
-    "main.js.map": "/mtisby-website/static/js/main.d3a02ea6.chunk.js.map",
+    "main.css": "/mtisby-website/static/css/main.bdf8d894.chunk.css",
+    "main.js": "/mtisby-website/static/js/main.11a15beb.chunk.js",
+    "main.js.map": "/mtisby-website/static/js/main.11a15beb.chunk.js.map",
     "runtime-main.js": "/mtisby-website/static/js/runtime-main.20e28428.js",
     "runtime-main.js.map": "/mtisby-website/static/js/runtime-main.20e28428.js.map",
     "static/js/2.f07a03c0.chunk.js": "/mtisby-website/static/js/2.f07a03c0.chunk.js",
     "static/js/2.f07a03c0.chunk.js.map": "/mtisby-website/static/js/2.f07a03c0.chunk.js.map",
     "index.html": "/mtisby-website/index.html",
-    "static/css/main.99cd3d4b.chunk.css.map": "/mtisby-website/static/css/main.99cd3d4b.chunk.css.map",
+    "static/css/main.bdf8d894.chunk.css.map": "/mtisby-website/static/css/main.bdf8d894.chunk.css.map",
     "static/js/2.f07a03c0.chunk.js.LICENSE.txt": "/mtisby-website/static/js/2.f07a03c0.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.20e28428.js",
     "static/js/2.f07a03c0.chunk.js",
-    "static/css/main.99cd3d4b.chunk.css",
-    "static/js/main.d3a02ea6.chunk.js"
+    "static/css/main.bdf8d894.chunk.css",
+    "static/js/main.11a15beb.chunk.js"
   ]
 }
