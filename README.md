@@ -1,6 +1,6 @@
 <h1>mtisby portfolio</h1>
 
-<img width="70%" src="./portfolio.gif" alt="portfolio-preview"/>
+<img width="50%" src="./portfolio.gif" alt="portfolio-preview"/>
 
 <p>My portfolio containing all of my completed and deployed projects in a visually aesthetic way. 
 
