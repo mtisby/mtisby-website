@@ -5,7 +5,8 @@ const Portfolio = () => {
         "star-campsites": "https://res.cloudinary.com/dr0ofxgkz/image/upload/v1636654003/portfolio/Star_Campsites_uliupa.gif",
         "cheflavor": "https://res.cloudinary.com/dr0ofxgkz/image/upload/v1636655757/portfolio/cheflavor_banyqt.gif",
         "js-calendar": "https://res.cloudinary.com/dr0ofxgkz/image/upload/v1636658371/portfolio/js-calenfdar_auidpm.gif",
-        "signum":"https://res.cloudinary.com/dr0ofxgkz/image/upload/v1636659040/portfolio/signum_oslci3.gif"
+        "signum": "https://res.cloudinary.com/dr0ofxgkz/image/upload/v1636659040/portfolio/signum_oslci3.gif",
+        "cheflavor-staffportal": "https://res.cloudinary.com/dr0ofxgkz/image/upload/v1636855482/portfolio/cheflavor-staffportal_ijllwa.gif"
     }
 
     const handleHoverEnter = (e) => {
@@ -48,6 +49,14 @@ const Portfolio = () => {
                     <img onMouseEnter={handleHoverEnter} onMouseLeave={ handleHoverLeave } src="https://res.cloudinary.com/dr0ofxgkz/image/upload/v1636656191/portfolio/cheflavor_dzfi1a.png" alt="cheflavor website gif" id="cheflavor"/>
                     <div>
                         <button className="projectButtons"><a href="https://protected-scrubland-89262.herokuapp.com/cheflavor">website</a></button>
+                        <button className="projectButtons"><a href="https://github.com/mtisby/cheflavor">repository</a></button>
+                    </div>
+                </div>
+                <div className="projectDiv">
+                    <h1 className="projectHeader">Cheflavor Staff Portal</h1>
+                    <img onMouseEnter={handleHoverEnter} onMouseLeave={ handleHoverLeave } src="https://res.cloudinary.com/dr0ofxgkz/image/upload/v1636855473/portfolio/staff-portal_owyzce.png" alt="cheflavor-website-gif" id="cheflavor-staffportal"/>
+                    <div>
+                        <button className="projectButtons"><a href="https://protected-scrubland-89262.herokuapp.com/cheflavor/stafflogin/login">website</a></button>
                         <button className="projectButtons"><a href="https://github.com/mtisby/cheflavor">repository</a></button>
                     </div>
                 </div>
