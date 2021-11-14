@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/mtisby-website/static/css/main.99cd3d4b.chunk.css",
-    "main.js": "/mtisby-website/static/js/main.1cba4f92.chunk.js",
-    "main.js.map": "/mtisby-website/static/js/main.1cba4f92.chunk.js.map",
+    "main.js": "/mtisby-website/static/js/main.d3a02ea6.chunk.js",
+    "main.js.map": "/mtisby-website/static/js/main.d3a02ea6.chunk.js.map",
     "runtime-main.js": "/mtisby-website/static/js/runtime-main.20e28428.js",
     "runtime-main.js.map": "/mtisby-website/static/js/runtime-main.20e28428.js.map",
     "static/js/2.f07a03c0.chunk.js": "/mtisby-website/static/js/2.f07a03c0.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.20e28428.js",
     "static/js/2.f07a03c0.chunk.js",
     "static/css/main.99cd3d4b.chunk.css",
-    "static/js/main.1cba4f92.chunk.js"
+    "static/js/main.d3a02ea6.chunk.js"
   ]
 }
