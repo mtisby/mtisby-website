@@ -2,7 +2,7 @@
 
 <p>My portfolio containing all of my completed and deployed projects in a visually aesthetic way. 
     
-    <img src="https://res.cloudinary.com/dr0ofxgkz/image/upload/v1636919008/portfolio/portfolio_khi8ks.gif">
+    <img src="https://res.cloudinary.com/dr0ofxgkz/image/upload/v1636919008/portfolio/portfolio_khi8ks.gif" alt="Mariel" />
 
 This web app was created using the JavaScript framework React. 
     
